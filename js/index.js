@@ -7,36 +7,38 @@ addVehicle = () => {
     let number =  +document.getElementById("number").value
     let condition =  document.getElementById("condition").value
 
-    console.log(allVehicles)
+    var vehicleArray = [type, make, model, number, condition];
 
-    document.getElementById("vehicleForm").requestFullscreen();
+    console.log(vehicleArray)
+
+    // document.getElementById("vehicleForm").requestFullscreen();
 
 }
 
-let vehicleLog = [];
+// let vehicleLog = [];
 
-logVehicle = () =>{
+// logVehicle = () =>{
 
-    //type
-    let type = document.getElementById("type").value;
-    //make
-    let make = document.getElementById("make").value;
-    //model
-    let model = document.getElementById("model").value;
-    //registration number
-    let number = document.getElementById("number").value;
-    //condition of vehicle
-    let condition = document.getElementById("condition").value;
+//     //type
+//     let type = document.getElementById("type").value;
+//     //make
+//     let make = document.getElementById("make").value;
+//     //model
+//     let model = document.getElementById("model").value;
+//     //registration number
+//     let number = document.getElementById("number").value;
+//     //condition of vehicle
+//     let condition = document.getElementById("condition").value;
 
-    vehicleLog.push({
-       type: type;
-       make: make;
-       model: model;
-       number: number;
-       condition: condition
-    })
+//     vehicleLog.push({
+//        type: type;
+//        make: make;
+//        model: model;
+//        number: number;
+//        condition: condition
+//     })
 
-    console.log(allVehicles);
+//     console.log(allVehicles);
 
-    document.getElementById("vehicleForm").reset();
-}
+//     document.getElementById("vehicleForm").reset();
+// }
